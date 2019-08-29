@@ -1,4 +1,10 @@
-# training
+# VueJS + Reveal + Markdown
+
+- Put your slides content in `public/slides/slides.md`
+- `---` is the slide separator
+- Images MUST be referenced with `./slides/` href, for example `<img class="stretch" src="./slides/vue.png"/>`
+
+Changes to your markdown file will hot reload in dev mode.
 
 ## Project setup
 ```
@@ -24,6 +30,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
